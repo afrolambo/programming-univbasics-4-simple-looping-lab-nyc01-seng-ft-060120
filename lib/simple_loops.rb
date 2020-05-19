@@ -27,7 +27,7 @@ end
 def return_string_array(array)
   new_ar = [] 
   array.each do |string| 
-    new_ar.push(string)
+    new_ar.push(string.to_s)
   end 
   return new_ar
 end
